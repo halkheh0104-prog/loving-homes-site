@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking | Loving Homes</title>
+  <meta name="description" content="Submit a booking enquiry for your dog’s stay at Loving Homes in Hong Kong." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="booking">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="topbar container">
+      <a href="index.html" class="logo" aria-label="Loving Homes home page">
+         <img src="images/logo.png" alt="Loving Homes logo" class="logo-image">
+        
+        <span>
+          <strong>Loving Homes</strong>
+          <small data-i18n="logo-subtitle">Dog Hotel & Care</small>
+        </span>
+      </a>
+
+      <div class="utility-actions">
+        <button id="decreaseFontBtn" class="utility-btn" type="button" data-i18n="font-decrease">A-</button>
+        <button id="increaseFontBtn" class="utility-btn" type="button" data-i18n="font-increase">A+</button>
+        <button id="darkModeBtn" class="utility-btn" type="button" data-i18n="dark-mode">Dark Mode</button>
+        <button id="langToggleBtn" class="utility-btn" type="button" data-i18n="language-toggle">中文</button>
+        <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+
+    <nav class="site-nav container" id="siteNav" aria-label="Main navigation">
+      <a href="index.html" data-i18n="nav-home">Home</a>
+      <a href="about.html" data-i18n="nav-about">About</a>
+      <a href="facilities.html" data-i18n="nav-facilities">Facilities</a>
+      <a href="packages.html" data-i18n="nav-packages">Packages</a>
+      <a href="contact.html" data-i18n="nav-contact">Contact</a>
+      <a href="booking.html" class="active" data-i18n="nav-booking">Booking</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow" data-i18n="booking-eyebrow">Booking enquiry</p>
+        <h1 data-i18n="booking-title">Tell us about your dog’s stay</h1>
+        <p class="lead narrow" data-i18n="booking-text">
+          Complete the form below and the Loving Homes team will contact you to confirm availability and package suitability.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container booking-layout">
+        <div class="info-card">
+          <h2 data-i18n="booking-side-title">Before you submit</h2>
+          <ul class="check-list">
+            <li data-i18n="booking-side1">Choose the package that best matches your dog’s needs</li>
+            <li data-i18n="booking-side2">Add any medical, behavioural or feeding notes</li>
+            <li data-i18n="booking-side3">Custom packages can be arranged after consultation</li>
+            <li data-i18n="booking-side4">A team member will reply to confirm details</li>
+          </ul>
+        </div>
+
+        <form id="bookingForm" class="form-card" novalidate>
+          <h2 data-i18n="booking-form-title">Booking Form</h2>
+
+          <label for="ownerName" data-i18n="form-name">Full Name</label>
+          <input type="text" id="ownerName" name="ownerName" required data-i18n-placeholder="form-name-placeholder" placeholder="Enter your full name" />
+
+          <label for="ownerEmail" data-i18n="form-email">Email Address</label>
+          <input type="email" id="ownerEmail" name="ownerEmail" required data-i18n-placeholder="form-email-placeholder" placeholder="Enter your email address" />
+
+          <label for="ownerPhone" data-i18n="form-phone">Phone Number</label>
+          <input type="tel" id="ownerPhone" name="ownerPhone" required data-i18n-placeholder="form-phone-placeholder" placeholder="Enter your phone number" />
+
+          <label for="dogName" data-i18n="booking-dog-name">Dog Name</label>
+          <input type="text" id="dogName" name="dogName" required data-i18n-placeholder="booking-dog-name-placeholder" placeholder="Enter your dog's name" />
+
+          <label for="packageType" data-i18n="booking-package-label">Package Type</label>
+          <select id="packageType" name="packageType" required>
+            <option value="" data-i18n="booking-package-default">Select a package</option>
+            <option value="Premium" data-i18n="pkg-premium-title">Premium Package</option>
+            <option value="Classic" data-i18n="pkg-classic-title">Classic Package</option>
+            <option value="Day" data-i18n="pkg-day-title">Day Package</option>
+            <option value="Custom" data-i18n="pkg-custom-title">Custom Package</option>
+          </select>
+
+          <label for="stayDate" data-i18n="booking-date-label">Preferred Date</label>
+          <input type="date" id="stayDate" name="stayDate" required />
+
+          <label for="specialRequirements" data-i18n="booking-special-label">Special Requirements</label>
+          <textarea id="specialRequirements" name="specialRequirements" rows="5" data-i18n-placeholder="booking-special-placeholder" placeholder="Add feeding, medical or behavioural notes"></textarea>
+
+          <button type="submit" class="btn btn-primary" data-i18n="booking-submit">Submit Enquiry</button>
+          <div id="bookingStatus" class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Loving Homes</h3>
+        <p data-i18n="footer-text">A professional dog hotel in Hong Kong focused on safety, comfort and a premium owner experience.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer-links-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html" data-i18n="nav-about">About</a></li>
+          <li><a href="packages.html" data-i18n="nav-packages">Packages</a></li>
+          <li><a href="facilities.html" data-i18n="nav-facilities">Facilities</a></li>
+          <li><a href="booking.html" data-i18n="nav-booking">Booking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer-contact-title">Contact</h4>
+        <p>Email: hello@lovinghomes.hk</p>
+        <p>Phone: +852 5555 2025</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Loving Homes. <span data-i18n="footer-rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
