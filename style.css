@@ -662,3 +662,59 @@ th {
   border-radius: 12px;
   display: block;
 }
+
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .logo {
+  flex-direction: row-reverse;
+}
+
+body.rtl .topbar,
+body.rtl .hero-actions,
+body.rtl .utility-actions,
+body.rtl .site-nav,
+body.rtl .footer-grid,
+body.rtl .contact-grid,
+body.rtl .booking-layout,
+body.rtl .cta-box {
+  direction: rtl;
+}
+
+body.rtl .check-list li {
+  padding-right: 28px;
+  padding-left: 0;
+}
+
+body.rtl .check-list li::before {
+  right: 0;
+  left: auto;
+}
+
+body.rtl th,
+body.rtl td,
+body.rtl input,
+body.rtl textarea,
+body.rtl select,
+body.rtl label,
+body.rtl p,
+body.rtl h1,
+body.rtl h2,
+body.rtl h3,
+body.rtl h4 {
+  text-align: right;
+}
+
+body.rtl .timeline-item {
+  flex-direction: row-reverse;
+}
+
+body.rtl .timeline-item span {
+  margin-left: 0;
+}
+
+body.rtl .site-nav a {
+  text-align: center;
+} 
