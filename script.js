@@ -4,7 +4,7 @@ const translations = {
     "font-decrease": "A-",
     "font-increase": "A+",
     "dark-mode": "Dark Mode",
-    "language-toggle": "中文",
+    "language-toggle": "العربية",
     "nav-home": "Home",
     "nav-about": "About",
     "nav-facilities": "Facilities",
@@ -177,198 +177,210 @@ const translations = {
     "booking-special-placeholder": "Add feeding, medical or behavioural notes"
   },
 
-  zh: {
-    "logo-subtitle": "狗狗酒店與照護",
-    "font-decrease": "A-",
-    "font-increase": "A+",
-    "dark-mode": "夜間模式",
+  ar: {
+    "logo-subtitle": "فندق وعناية الكلاب",
+    "font-decrease": "أ-",
+    "font-increase": "أ+",
+    "dark-mode": "الوضع الليلي",
     "language-toggle": "EN",
-    "nav-home": "首頁",
-    "nav-about": "關於我們",
-    "nav-facilities": "設施",
-    "nav-packages": "套餐",
-    "nav-contact": "聯絡我們",
-    "nav-booking": "預訂",
-    "footer-text": "香港專業狗狗酒店，重視安全、舒適與高品質主人體驗。",
-    "footer-links-title": "快速連結",
-    "footer-contact-title": "聯絡方式",
-    "footer-rights": "版權所有。",
+    "nav-home": "الرئيسية",
+    "nav-about": "من نحن",
+    "nav-facilities": "المرافق",
+    "nav-packages": "الحزم",
+    "nav-contact": "تواصل معنا",
+    "nav-booking": "الحجز",
+    "footer-text": "فندق كلاب احترافي في هونغ كونغ يركز على السلامة والراحة وتجربة راقية لأصحاب الحيوانات الأليفة.",
+    "footer-links-title": "روابط سريعة",
+    "footer-contact-title": "بيانات التواصل",
+    "footer-rights": "جميع الحقوق محفوظة.",
 
-    "home-eyebrow": "高級寵物住宿",
-    "home-hero-title": "香港狗狗豪華照護體驗",
-    "home-hero-text": "Loving Homes 提供安全寄宿、客製化活動、美容清潔、接送服務及每日貼心更新。",
-    "home-hero-btn1": "立即預訂",
-    "home-hero-btn2": "查看套餐",
-    "home-card-title": "主人選擇我們的原因",
-    "home-card-item1": "24 小時獸醫支援",
-    "home-card-item2": "獨立房間，具備冷暖地板",
-    "home-card-item3": "安全的戶外與室內遊戲區",
-    "home-card-item4": "每日照片與活動更新",
-    "home-intro-eyebrow": "歡迎",
-    "home-intro-title": "以舒適、安全與信任為核心",
-    "home-intro-text": "網站設計讓狗主能快速了解服務、比較套餐，並在手機或桌面上安心聯絡酒店。",
-    "home-feature1-title": "清晰的服務資訊",
-    "home-feature1-text": "訪客可輕鬆查看寄宿、美容、接送與活動內容。",
-    "home-feature2-title": "響應式版面",
-    "home-feature2-text": "版面可自動適應手機、平板與電腦。",
-    "home-feature3-title": "易用與無障礙",
-    "home-feature3-text": "可讀字體、明確對比、鍵盤友善表單與字體控制提升使用體驗。",
-    "home-packages-eyebrow": "套餐",
-    "home-packages-title": "依不同需求提供靈活住宿",
-    "home-packages-text": "根據狗狗的活動量、舒適需求與停留時間選擇最適合的方案。",
-    "home-cta-eyebrow": "需要客製方案？",
-    "home-cta-title": "歡迎長住與特殊需求安排",
-    "home-cta-text": "如狗狗有醫療、行為或照護上的特殊需求，請聯絡團隊安排個別方案。",
-    "home-cta-btn": "聯絡我們",
+    "home-eyebrow": "ضيافة متميزة للحيوانات الأليفة",
+    "home-hero-title": "رعاية فاخرة للكلاب في هونغ كونغ",
+    "home-hero-text": "يوفر Loving Homes إقامة آمنة، وأنشطة مخصصة، وعناية وتنظيف، وخدمة نقل، وتحديثات يومية لكل كلب.",
+    "home-hero-btn1": "احجز الآن",
+    "home-hero-btn2": "عرض الحزم",
+    "home-card-title": "لماذا يختارنا أصحاب الكلاب؟",
+    "home-card-item1": "دعم بيطري على مدار 24 ساعة",
+    "home-card-item2": "غرف خاصة مزودة بالتدفئة والتبريد",
+    "home-card-item3": "مناطق لعب داخلية وخارجية آمنة",
+    "home-card-item4": "صور وتحديثات يومية",
+    "home-intro-eyebrow": "مرحبًا بكم",
+    "home-intro-title": "مصمم من أجل الراحة والسلامة والثقة",
+    "home-intro-text": "تم تصميم الموقع لمساعدة أصحاب الكلاب على فهم الخدمات ومقارنة الحزم والتواصل مع الفندق بسهولة من الهاتف أو الحاسوب.",
+    "home-feature1-title": "معلومات واضحة عن الخدمات",
+    "home-feature1-text": "يمكن للزائر استكشاف خدمات الإقامة والعناية والنقل والأنشطة بسهولة ووضوح.",
+    "home-feature2-title": "تصميم متجاوب",
+    "home-feature2-text": "يتكيف تصميم الموقع مع الهواتف والأجهزة اللوحية والحواسيب لتوفير تجربة تصفح مريحة.",
+    "home-feature3-title": "تجربة سهلة الوصول",
+    "home-feature3-text": "تحسين التباين، وسهولة القراءة، ودعم النماذج، وأزرار التحكم بالخط ترفع من سهولة الاستخدام.",
+    "home-packages-eyebrow": "الحزم",
+    "home-packages-title": "إقامات مرنة تناسب الاحتياجات المختلفة",
+    "home-packages-text": "اختر الحزمة التي تناسب مستوى نشاط كلبك واحتياجاته ومدة الإقامة.",
+    "home-cta-eyebrow": "هل تحتاج خطة مخصصة؟",
+    "home-cta-title": "نرحب بالإقامات الطويلة والمتطلبات الخاصة",
+    "home-cta-text": "تواصل مع فريقنا لترتيب خطة رعاية مخصصة للكلاب ذات الاحتياجات الطبية أو السلوكية أو الخاصة.",
+    "home-cta-btn": "تواصل معنا",
 
-    "about-eyebrow": "關於酒店",
-    "about-title": "以信任為核心的現代狗狗酒店",
-    "about-text": "Loving Homes 的成立是為了讓狗主安心，透過高品質住宿、細心團隊與安全活動照顧每一隻狗。",
-    "about-mission-title": "我們的使命",
-    "about-mission-text": "提供安全、整潔、令人安心的環境，讓狗狗獲得專業照護、愉快活動與真正舒適感。",
-    "about-vision-title": "我們的願景",
-    "about-vision-text": "結合高品質設施、清楚溝通與個人化照護，成為香港最值得信賴的狗狗住宿品牌之一。",
-    "about-values-eyebrow": "我們的特色",
-    "about-values-title": "不只是基本寄宿，而是更完整的照護體驗",
-    "about-value1-title": "舒適",
-    "about-value1-text": "具冷暖控制的私人房間，幫助狗狗放鬆休息。",
-    "about-value2-title": "安全",
-    "about-value2-text": "24 小時獸醫支援提供更高保障與即時應對能力。",
-    "about-value3-title": "透明",
-    "about-value3-text": "每日更新與照片讓主人能持續了解狗狗狀況。",
-    "about-value4-title": "豐富活動",
-    "about-value4-text": "散步、戶外空間、室內遊戲與個別行程讓狗狗保持活力。",
-    "about-process-title": "服務流程",
-    "about-step1-title": "選擇套餐",
-    "about-step1-text": "查看服務內容並選出最符合狗狗需求的方案。",
-    "about-step2-title": "聯絡或查詢",
-    "about-step2-text": "透過預訂或聯絡頁面提交入住需求與特殊事項。",
-    "about-step3-title": "獲得客製照護",
-    "about-step3-text": "團隊會根據套餐安排作息、活動、美容與每日更新。",
+    "about-eyebrow": "عن الفندق",
+    "about-title": "فندق كلاب حديث ومهتم بالرعاية مبني على الثقة",
+    "about-text": "تم تطوير Loving Homes ليمنح أصحاب الكلاب راحة البال من خلال الإقامة المتميزة، والاهتمام العالي، والأنشطة الآمنة المناسبة لكل حيوان أليف.",
+    "about-mission-title": "رسالتنا",
+    "about-mission-text": "توفير بيئة آمنة ونظيفة ومطمئنة تحصل فيها الكلاب على رعاية احترافية ونشاط ممتع وراحة حقيقية، مع إبقاء أصحابها على اطلاع دائم.",
+    "about-vision-title": "رؤيتنا",
+    "about-vision-text": "أن نصبح من أكثر علامات ضيافة الكلاب ثقة في هونغ كونغ من خلال الدمج بين المرافق المتميزة والتواصل الواضح والرعاية الشخصية.",
+    "about-values-eyebrow": "لماذا نحن مختلفون؟",
+    "about-values-title": "مصمم لأصحاب الكلاب الذين يريدون أكثر من مجرد إيواء أساسي",
+    "about-value1-title": "الراحة",
+    "about-value1-text": "تساعد الغرف الخاصة المزودة بالتدفئة والتبريد الكلاب على الراحة في بيئة هادئة ومضبوطة.",
+    "about-value2-title": "السلامة",
+    "about-value2-text": "يتوفر دعم بيطري على مدار 24 ساعة لتوفير الطمأنينة والاستجابة السريعة عند الحاجة.",
+    "about-value3-title": "الشفافية",
+    "about-value3-text": "يحصل أصحاب الكلاب على تحديثات وصور تساعدهم على متابعة تجربة كلابهم يوميًا.",
+    "about-value4-title": "الإثراء والنشاط",
+    "about-value4-text": "المشي اليومي، والمساحات الخارجية، واللعب الداخلي، والروتين الشخصي تجعل الكلاب أكثر نشاطًا وسعادة.",
+    "about-process-title": "كيف تسير التجربة؟",
+    "about-step1-title": "اختر الحزمة",
+    "about-step1-text": "راجع الخدمات المتاحة واختر الحزمة الأنسب لاحتياجات كلبك.",
+    "about-step2-title": "تواصل أو استفسر",
+    "about-step2-text": "استخدم صفحة الحجز أو التواصل لإرسال تفاصيل الإقامة وأي متطلبات خاصة.",
+    "about-step3-title": "احصل على رعاية مخصصة",
+    "about-step3-text": "يقوم فريقنا بتنظيم الروتين واللعب والعناية والتحديثات اليومية بناءً على الحزمة المختارة.",
 
-    "facilities-eyebrow": "設施與服務",
-    "facilities-title": "以健康與舒適為核心的高級空間",
-    "facilities-text": "Loving Homes 的每個區域都為舒適、安全、運動與主人安心而設計。",
-    "fac1-title": "美容沙龍與水療",
-    "fac1-text": "專業美容與清潔服務讓狗狗在住宿期間保持健康舒適。",
-    "fac2-title": "冷暖獨立房間",
-    "fac2-text": "具地板冷暖的私人房間提供更穩定、安靜的休息環境。",
-    "fac3-title": "接送服務",
-    "fac3-text": "接送安排提高便利性，讓入住與離開更順暢。",
-    "fac4-title": "安全戶外活動區",
-    "fac4-text": "狗狗可在受監督的安全圍欄區域進行戶外活動與遊戲。",
-    "fac5-title": "室內遊戲區",
-    "fac5-text": "不受天氣影響，全年都能維持活動與運動安排。",
-    "fac6-title": "24 小時獸醫支援",
-    "fac6-text": "提供更高層級的安全保障與主人的安心感。",
-    "fac7-title": "寵物監測更新",
-    "fac7-text": "每日照片與近況更新有助於建立服務信任。",
-    "fac8-title": "森林散步與活動",
-    "fac8-text": "規劃性的活動能增加運動量與心理刺激。",
-    "fac9-title": "私人草地空間",
-    "fac9-text": "高級方案可使用專屬草地區域，享有更安靜的戶外時間。",
-    "facilities-cta-eyebrow": "需要幫助選擇？",
-    "facilities-cta-title": "將設施與套餐內容一起比較",
-    "facilities-cta-text": "前往套餐頁面，查看不同住宿類型包含哪些活動與空間。",
-    "facilities-cta-btn": "前往套餐",
+    "facilities-eyebrow": "المرافق والخدمات",
+    "facilities-title": "مساحات متميزة مصممة من أجل الراحة والعناية",
+    "facilities-text": "تم التخطيط لكل جزء في Loving Homes لدعم الراحة والسلامة والنشاط وطمأنينة صاحب الحيوان.",
+    "fac1-title": "صالون الحلاقة والمنتجع",
+    "fac1-text": "خدمات العناية والتنظيف الاحترافية تساعد الكلاب على البقاء بصحة جيدة وراحة طوال فترة الإقامة.",
+    "fac2-title": "غرف مزودة بالتدفئة والتبريد",
+    "fac2-text": "توفر الغرف الخاصة المزودة بتدفئة وتبريد تحت الأرضية بيئة أكثر راحة واستقرارًا.",
+    "fac3-title": "خدمة التوصيل من وإلى المكان",
+    "fac3-text": "تزيد خدمة النقل من الراحة لأصحاب الكلاب وتسهّل ترتيبات الوصول والمغادرة.",
+    "fac4-title": "مراعي خارجية آمنة",
+    "fac4-text": "تستمتع الكلاب بالحركة واللعب في مناطق خارجية آمنة وتحت إشراف مناسب.",
+    "fac5-title": "حظيرة لعب داخلية",
+    "fac5-text": "توفر مساحة اللعب الداخلية فرصة للنشاط بغض النظر عن الظروف الجوية.",
+    "fac6-title": "دعم بيطري على مدار 24 ساعة",
+    "fac6-text": "تزيد الخدمة البيطرية المستمرة من مستوى الأمان والثقة لدى أصحاب الحيوانات الأليفة.",
+    "fac7-title": "تحديثات ومراقبة الحيوانات الأليفة",
+    "fac7-text": "التحديثات اليومية والصور تساعد في بناء الثقة وتبقي أصحاب الكلاب على اطلاع دائم.",
+    "fac8-title": "مشي في الغابات وأنشطة يومية",
+    "fac8-text": "تساعد الأنشطة اليومية المنظمة في دعم اللياقة والنشاط والتحفيز الذهني.",
+    "fac9-title": "مساحة عشب خاصة",
+    "fac9-text": "يمكن للكلاب في الحزم المميزة الاستمتاع بمساحة خارجية هادئة وخاصة.",
+    "facilities-cta-eyebrow": "هل تحتاج مساعدة في الاختيار؟",
+    "facilities-cta-title": "قارن بين المرافق والحزم المتاحة",
+    "facilities-cta-text": "انتقل إلى صفحة الحزم لمعرفة ما تتضمنه كل إقامة من خدمات وأنشطة.",
+    "facilities-cta-btn": "انتقل إلى الحزم",
 
-    "packages-eyebrow": "住宿選項",
-    "packages-title": "選擇最適合您狗狗的套餐",
-    "packages-text": "Loving Homes 提供高級、經典、日托及客製方案，適合不同停留需求。",
-    "pkg-premium-badge": "最受歡迎",
-    "pkg-premium-title": "高級套餐",
-    "pkg-premium-text": "每日四次散步或活動、私人草地、每日照片與獎勵安排。",
-    "pkg-premium-item1": "每日四次散步或活動",
-    "pkg-premium-item2": "私人草地區域",
-    "pkg-premium-item3": "每日更新與照片",
-    "pkg-premium-item4": "依主人同意提供獎勵",
-    "pkg-classic-badge": "均衡照護",
-    "pkg-classic-title": "經典套餐",
-    "pkg-classic-text": "每日三次散步或活動、室內遊戲區、休息區與美容清潔。",
-    "pkg-classic-item1": "每日三次散步或活動",
-    "pkg-classic-item2": "可使用室內遊戲區",
-    "pkg-classic-item3": "放鬆休息區",
-    "pkg-classic-item4": "美容與清潔服務",
-    "pkg-day-badge": "短期停留",
-    "pkg-day-title": "日托套餐",
-    "pkg-day-text": "每日兩次散步、戶外遊戲區、敏捷訓練道與沙坑活動。",
-    "pkg-day-item1": "每日兩次散步",
-    "pkg-day-item2": "戶外遊戲區",
-    "pkg-day-item3": "敏捷訓練道",
-    "pkg-day-item4": "沙坑挖掘活動",
-    "pkg-custom-badge": "客製方案",
-    "pkg-custom-title": "客製套餐",
-    "pkg-custom-text": "適用於長期住宿、特殊醫療或行為需求，或主人希望安排更個人化照護時使用。",
-    "pkg-custom-btn": "申請客製套餐",
-    "packages-compare-title": "套餐快速比較",
-    "packages-table-feature": "項目",
-    "packages-row1": "散步 / 活動次數",
-    "packages-row2": "私人草地區域",
-    "packages-row3": "室內遊戲區",
-    "packages-row4": "每日更新 / 照片",
-    "table-yes": "有",
-    "table-no": "無",
-    "table-limited": "有限",
+    "packages-eyebrow": "خيارات الإقامة",
+    "packages-title": "اختر الحزمة المناسبة لكلبك",
+    "packages-text": "يوفر Loving Homes حزمًا مميزة وكلاسيكية ويومية، إضافة إلى خيارات مخصصة للإقامات الطويلة والمتطلبات الإضافية.",
+    "pkg-premium-badge": "الأكثر طلبًا",
+    "pkg-premium-title": "الحزمة المميزة",
+    "pkg-premium-text": "أربع مرات مشي أو أنشطة يوميًا، ومساحة عشب خاصة، وصور يومية، ومكافآت متفق عليها.",
+    "pkg-premium-item1": "أربع مرات مشي أو أنشطة يوميًا",
+    "pkg-premium-item2": "مساحة عشب خاصة",
+    "pkg-premium-item3": "تحديثات وصور يومية",
+    "pkg-premium-item4": "مكافآت حسب الاتفاق مع صاحب الحيوان",
+    "pkg-classic-badge": "رعاية متوازنة",
+    "pkg-classic-title": "الحزمة الكلاسيكية",
+    "pkg-classic-text": "ثلاث مرات مشي أو أنشطة يوميًا، وحظيرة لعب داخلية، ومنطقة استرخاء، وجلسة عناية وتنظيف.",
+    "pkg-classic-item1": "ثلاث مرات مشي أو أنشطة يوميًا",
+    "pkg-classic-item2": "استخدام حظيرة اللعب الداخلية",
+    "pkg-classic-item3": "منطقة استرخاء",
+    "pkg-classic-item4": "جلسة حلاقة وتنظيف",
+    "pkg-day-badge": "إقامة قصيرة",
+    "pkg-day-title": "حزمة اليوم",
+    "pkg-day-text": "مرتان للمشي يوميًا، ومنطقة لعب خارجية، ومسار رشاقة، ونشاط الحفر في الرمل.",
+    "pkg-day-item1": "مرتان للمشي يوميًا",
+    "pkg-day-item2": "منطقة لعب خارجية",
+    "pkg-day-item3": "مسار رشاقة",
+    "pkg-day-item4": "نشاط الحفر في الرمل",
+    "pkg-custom-badge": "خطة مخصصة",
+    "pkg-custom-title": "حزمة مخصصة",
+    "pkg-custom-text": "تتوفر ترتيبات مخصصة للإقامات الطويلة أو للكلاب ذات المتطلبات الطبية أو السلوكية أو الخاصة.",
+    "pkg-custom-btn": "اطلب حزمة مخصصة",
+    "packages-compare-title": "مقارنة سريعة بين الحزم",
+    "packages-table-feature": "العنصر",
+    "packages-row1": "المشي / الأنشطة",
+    "packages-row2": "مساحة عشب خاصة",
+    "packages-row3": "حظيرة لعب داخلية",
+    "packages-row4": "تحديثات / صور يومية",
+    "table-yes": "نعم",
+    "table-no": "لا",
+    "table-limited": "محدود",
 
-    "contact-eyebrow": "聯絡我們",
-    "contact-title": "聯絡 Loving Homes 團隊",
-    "contact-text": "在預訂前可先查詢服務內容、套餐適合度、長住安排或特殊需求。",
-    "contact-card-title": "聯絡資訊",
-    "contact-phone-label": "電話：",
-    "contact-email-label": "電子郵件：",
-    "contact-location-label": "地點：",
-    "contact-hours-label": "營業時間：",
-    "contact-help-title": "我們可協助您",
-    "contact-help1": "提供套餐建議",
-    "contact-help2": "安排客製住宿與特殊照護",
-    "contact-help3": "說明接送、美容與活動內容",
-    "contact-help4": "回答預訂前問題",
-    "contact-form-title": "發送訊息",
-    "contact-submit": "送出訊息",
-    "contact-form-note": "您的資料僅用於回覆查詢。",
+    "contact-eyebrow": "تواصل معنا",
+    "contact-title": "تواصل مع فريق Loving Homes",
+    "contact-text": "اسأل عن الخدمات أو الحزم أو الإقامات الطويلة أو أي متطلبات خاصة قبل إرسال طلب الحجز.",
+    "contact-card-title": "معلومات التواصل",
+    "contact-phone-label": "الهاتف:",
+    "contact-email-label": "البريد الإلكتروني:",
+    "contact-location-label": "الموقع:",
+    "contact-hours-label": "ساعات العمل:",
+    "contact-help-title": "كيف يمكننا مساعدتك؟",
+    "contact-help1": "تقديم نصائح عامة حول الحزم",
+    "contact-help2": "ترتيب إقامات مخصصة وطلبات خاصة",
+    "contact-help3": "شرح تفاصيل النقل والعناية والأنشطة",
+    "contact-help4": "الإجابة عن أسئلة ما قبل الحجز",
+    "contact-form-title": "أرسل رسالة",
+    "contact-submit": "إرسال الرسالة",
+    "contact-form-note": "سيتم استخدام بياناتك فقط للرد على استفسارك.",
 
-    "booking-eyebrow": "預訂查詢",
-    "booking-title": "告訴我們您的狗狗住宿需求",
-    "booking-text": "請填寫下列表單，Loving Homes 團隊會與您聯絡確認空位與合適方案。",
-    "booking-side-title": "提交前請留意",
-    "booking-side1": "請先選擇最適合狗狗需求的套餐",
-    "booking-side2": "加入醫療、行為或飲食備註",
-    "booking-side3": "客製套餐可於諮詢後安排",
-    "booking-side4": "團隊成員會回覆確認細節",
-    "booking-form-title": "預訂表單",
-    "booking-dog-name": "狗狗名字",
-    "booking-package-label": "套餐類型",
-    "booking-package-default": "請選擇套餐",
-    "booking-date-label": "偏好日期",
-    "booking-special-label": "特殊需求",
-    "booking-submit": "提交查詢",
+    "booking-eyebrow": "طلب حجز",
+    "booking-title": "أخبرنا بتفاصيل إقامة كلبك",
+    "booking-text": "املأ النموذج التالي وسيتواصل معك فريق Loving Homes لتأكيد التوفر وملاءمة الحزمة.",
+    "booking-side-title": "قبل الإرسال",
+    "booking-side1": "اختر الحزمة الأنسب لاحتياجات كلبك",
+    "booking-side2": "أضف أي ملاحظات طبية أو سلوكية أو غذائية",
+    "booking-side3": "يمكن ترتيب الحزم المخصصة بعد التشاور",
+    "booking-side4": "سيتواصل معك أحد أفراد الفريق لتأكيد التفاصيل",
+    "booking-form-title": "نموذج الحجز",
+    "booking-dog-name": "اسم الكلب",
+    "booking-package-label": "نوع الحزمة",
+    "booking-package-default": "اختر الحزمة",
+    "booking-date-label": "التاريخ المفضل",
+    "booking-special-label": "المتطلبات الخاصة",
+    "booking-submit": "إرسال الطلب",
 
-    "form-name": "全名",
-    "form-email": "電子郵件地址",
-    "form-phone": "電話號碼",
-    "form-message": "訊息內容",
-    "form-name-placeholder": "請輸入您的全名",
-    "form-email-placeholder": "請輸入您的電子郵件",
-    "form-phone-placeholder": "請輸入您的電話號碼",
-    "form-message-placeholder": "請在此輸入訊息",
-    "booking-dog-name-placeholder": "請輸入狗狗名字",
-    "booking-special-placeholder": "請加入餵食、醫療或行為備註"
+    "form-name": "الاسم الكامل",
+    "form-email": "البريد الإلكتروني",
+    "form-phone": "رقم الهاتف",
+    "form-message": "الرسالة",
+    "form-name-placeholder": "أدخل الاسم الكامل",
+    "form-email-placeholder": "أدخل البريد الإلكتروني",
+    "form-phone-placeholder": "أدخل رقم الهاتف",
+    "form-message-placeholder": "اكتب رسالتك هنا",
+    "booking-dog-name-placeholder": "أدخل اسم الكلب",
+    "booking-special-placeholder": "أضف ملاحظات غذائية أو طبية أو سلوكية"
   }
 };
 
+function applyDirection(lang) {
+  if (lang === "ar") {
+    document.documentElement.lang = "ar";
+    document.documentElement.dir = "rtl";
+    document.body.classList.add("rtl");
+  } else {
+    document.documentElement.lang = "en";
+    document.documentElement.dir = "ltr";
+    document.body.classList.remove("rtl");
+  }
+}
+
 function applyTranslations(lang) {
-  document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
+  applyDirection(lang);
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
-    if (translations[lang][key]) {
+    if (translations[lang] && translations[lang][key]) {
       el.textContent = translations[lang][key];
     }
   });
 
   document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
     const key = el.getAttribute("data-i18n-placeholder");
-    if (translations[lang][key]) {
+    if (translations[lang] && translations[lang][key]) {
       el.setAttribute("placeholder", translations[lang][key]);
     }
   });
@@ -438,13 +450,13 @@ function setupFontControls() {
 
 function setupLanguageToggle() {
   const langToggleBtn = document.getElementById("langToggleBtn");
-  const storedLang = localStorage.getItem("lh-lang") || "en";
+  const storedLang = localStorage.getItem("lh-lang") || "ar";
   applyTranslations(storedLang);
 
   if (langToggleBtn) {
     langToggleBtn.addEventListener("click", () => {
-      const current = localStorage.getItem("lh-lang") || "en";
-      const next = current === "en" ? "zh" : "en";
+      const current = localStorage.getItem("lh-lang") || "ar";
+      const next = current === "en" ? "ar" : "en";
       localStorage.setItem("lh-lang", next);
       applyTranslations(next);
     });
@@ -473,12 +485,12 @@ function setupContactForm() {
     const email = document.getElementById("contactEmail").value.trim();
     const phone = document.getElementById("contactPhone").value.trim();
     const message = document.getElementById("contactMessage").value.trim();
-    const lang = localStorage.getItem("lh-lang") || "en";
+    const lang = localStorage.getItem("lh-lang") || "ar";
 
     if (!name || !email || !phone || !message) {
       showStatus(
         status,
-        lang === "zh" ? "請填寫所有必填欄位。" : "Please complete all required fields.",
+        lang === "ar" ? "يرجى تعبئة جميع الحقول المطلوبة." : "Please complete all required fields.",
         "error"
       );
       return;
@@ -487,7 +499,7 @@ function setupContactForm() {
     if (!validateEmail(email)) {
       showStatus(
         status,
-        lang === "zh" ? "請輸入有效的電子郵件地址。" : "Please enter a valid email address.",
+        lang === "ar" ? "يرجى إدخال بريد إلكتروني صحيح." : "Please enter a valid email address.",
         "error"
       );
       return;
@@ -495,7 +507,7 @@ function setupContactForm() {
 
     showStatus(
       status,
-      lang === "zh" ? "訊息已成功送出。" : "Message sent successfully.",
+      lang === "ar" ? "تم إرسال الرسالة بنجاح." : "Message sent successfully.",
       "success"
     );
     form.reset();
@@ -516,12 +528,12 @@ function setupBookingForm() {
     const dogName = document.getElementById("dogName").value.trim();
     const packageType = document.getElementById("packageType").value.trim();
     const stayDate = document.getElementById("stayDate").value.trim();
-    const lang = localStorage.getItem("lh-lang") || "en";
+    const lang = localStorage.getItem("lh-lang") || "ar";
 
     if (!ownerName || !ownerEmail || !ownerPhone || !dogName || !packageType || !stayDate) {
       showStatus(
         status,
-        lang === "zh" ? "請填寫所有必填欄位後再提交。" : "Please complete all required fields before submitting.",
+        lang === "ar" ? "يرجى تعبئة جميع الحقول المطلوبة قبل الإرسال." : "Please complete all required fields before submitting.",
         "error"
       );
       return;
@@ -530,7 +542,7 @@ function setupBookingForm() {
     if (!validateEmail(ownerEmail)) {
       showStatus(
         status,
-        lang === "zh" ? "請輸入有效的電子郵件地址。" : "Please enter a valid email address.",
+        lang === "ar" ? "يرجى إدخال بريد إلكتروني صحيح." : "Please enter a valid email address.",
         "error"
       );
       return;
@@ -538,7 +550,7 @@ function setupBookingForm() {
 
     showStatus(
       status,
-      lang === "zh" ? "預訂查詢已成功提交。" : "Booking enquiry submitted successfully.",
+      lang === "ar" ? "تم إرسال طلب الحجز بنجاح." : "Booking enquiry submitted successfully.",
       "success"
     );
     form.reset();
